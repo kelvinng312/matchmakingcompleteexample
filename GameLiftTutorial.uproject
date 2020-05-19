@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{B98FAAB4-41A9-21D0-9024-889A8D11C299}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameLiftTutorial",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CognitoDynamoDBGameLiftLambdaSDK",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/eee4bef24c9d429887ddcc107a5a9b4d"
+		},
+		{
+			"Name": "VictoryBPLibrary",
+			"Enabled": false,
+			"MarketplaceURL": "http://www.ue4code.com"
+		},
+		{
+			"Name": "BlueprintJson",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f837e4835fbc434a853fe1ead2410b84"
+		}
+	]
+}
